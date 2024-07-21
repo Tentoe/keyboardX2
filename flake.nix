@@ -18,7 +18,7 @@
             source venv/bin/activate
             pip install -r requirements.txt
             # TODO use your board
-            circuitpython_setboard 0xcb_helios
+            circuitpython_setboard raspberry_pi_pico
           '';
         };
 
